@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D1688741D02A88600D6CD72 /* HomeVideoImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1688731D02A88600D6CD72 /* HomeVideoImage.m */; };
+		3D16887D1D02CDB300D6CD72 /* HomePlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D16887C1D02CDB300D6CD72 /* HomePlayerView.m */; };
+		3D1688801D02F02B00D6CD72 /* ArticleDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D16887F1D02F02B00D6CD72 /* ArticleDetailController.m */; };
+		3D1688831D02F24D00D6CD72 /* CommentsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1688821D02F24D00D6CD72 /* CommentsCell.m */; };
+		3D1688861D02F26800D6CD72 /* CommentsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1688851D02F26800D6CD72 /* CommentsData.m */; };
+		3D233BC41D050D440009A0A5 /* TitleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D233BC31D050D440009A0A5 /* TitleScrollView.m */; };
+		3D233BC81D050DD50009A0A5 /* Constant.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D233BC71D050DD50009A0A5 /* Constant.m */; };
 		3D60A9BF1D016C6A00A78A15 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A9BE1D016C6A00A78A15 /* main.m */; };
 		3D60A9C21D016C6A00A78A15 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A9C11D016C6A00A78A15 /* AppDelegate.m */; };
-		3D60A9C51D016C6A00A78A15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A9C41D016C6A00A78A15 /* ViewController.m */; };
-		3D60A9C81D016C6A00A78A15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D60A9C61D016C6A00A78A15 /* Main.storyboard */; };
+		3D60A9C51D016C6A00A78A15 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A9C41D016C6A00A78A15 /* HomeViewController.m */; };
 		3D60A9CA1D016C6A00A78A15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D60A9C91D016C6A00A78A15 /* Assets.xcassets */; };
 		3D60A9CD1D016C6A00A78A15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D60A9CB1D016C6A00A78A15 /* LaunchScreen.storyboard */; };
 		3D60A9D81D016C6B00A78A15 /* QSBKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A9D71D016C6B00A78A15 /* QSBKTests.m */; };
 		3D60A9E31D016C6B00A78A15 /* QSBKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A9E21D016C6B00A78A15 /* QSBKUITests.m */; };
+		3D60A9F81D01A0D600A78A15 /* HomeJokeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A9F71D01A0D600A78A15 /* HomeJokeData.m */; };
+		3D60A9FA1D01A96900A78A15 /* test_data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3D60A9F91D01A96900A78A15 /* test_data.json */; };
+		3D60A9FD1D01B76C00A78A15 /* HomeJokeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D60A9FC1D01B76C00A78A15 /* HomeJokeCell.m */; };
+		95CF59E371C07DBFB4C34164 /* Pods_QSBK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76F1AAA792EBFCBCA9723752 /* Pods_QSBK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +45,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D1688711D02998C00D6CD72 /* PingFang.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PingFang.ttf; sourceTree = "<group>"; };
+		3D1688721D02A88600D6CD72 /* HomeVideoImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVideoImage.h; sourceTree = "<group>"; };
+		3D1688731D02A88600D6CD72 /* HomeVideoImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVideoImage.m; sourceTree = "<group>"; };
+		3D16887B1D02CDB300D6CD72 /* HomePlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePlayerView.h; sourceTree = "<group>"; };
+		3D16887C1D02CDB300D6CD72 /* HomePlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePlayerView.m; sourceTree = "<group>"; };
+		3D16887E1D02F02B00D6CD72 /* ArticleDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArticleDetailController.h; sourceTree = "<group>"; };
+		3D16887F1D02F02B00D6CD72 /* ArticleDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArticleDetailController.m; sourceTree = "<group>"; };
+		3D1688811D02F24D00D6CD72 /* CommentsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsCell.h; sourceTree = "<group>"; };
+		3D1688821D02F24D00D6CD72 /* CommentsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsCell.m; sourceTree = "<group>"; };
+		3D1688841D02F26800D6CD72 /* CommentsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsData.h; sourceTree = "<group>"; };
+		3D1688851D02F26800D6CD72 /* CommentsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsData.m; sourceTree = "<group>"; };
+		3D233BC21D050D440009A0A5 /* TitleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScrollView.h; sourceTree = "<group>"; };
+		3D233BC31D050D440009A0A5 /* TitleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScrollView.m; sourceTree = "<group>"; };
+		3D233BC61D050DD50009A0A5 /* Constant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		3D233BC71D050DD50009A0A5 /* Constant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constant.m; sourceTree = "<group>"; };
 		3D60A9BA1D016C6A00A78A15 /* QSBK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSBK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D60A9BE1D016C6A00A78A15 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3D60A9C01D016C6A00A78A15 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3D60A9C11D016C6A00A78A15 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3D60A9C31D016C6A00A78A15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3D60A9C41D016C6A00A78A15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3D60A9C71D016C6A00A78A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D60A9C31D016C6A00A78A15 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = ../../../HomeViewController.h; sourceTree = "<group>"; };
+		3D60A9C41D016C6A00A78A15 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = ../../../HomeViewController.m; sourceTree = "<group>"; };
 		3D60A9C91D016C6A00A78A15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D60A9CC1D016C6A00A78A15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D60A9CE1D016C6A00A78A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +75,14 @@
 		3D60A9DE1D016C6B00A78A15 /* QSBKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSBKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D60A9E21D016C6B00A78A15 /* QSBKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSBKUITests.m; sourceTree = "<group>"; };
 		3D60A9E41D016C6B00A78A15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D60A9F61D01A0D600A78A15 /* HomeJokeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeJokeData.h; sourceTree = "<group>"; };
+		3D60A9F71D01A0D600A78A15 /* HomeJokeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeJokeData.m; sourceTree = "<group>"; };
+		3D60A9F91D01A96900A78A15 /* test_data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test_data.json; sourceTree = "<group>"; };
+		3D60A9FB1D01B76C00A78A15 /* HomeJokeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeJokeCell.h; sourceTree = "<group>"; };
+		3D60A9FC1D01B76C00A78A15 /* HomeJokeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeJokeCell.m; sourceTree = "<group>"; };
+		48CBF5B9AA0FDDE07CD3B800 /* Pods-QSBK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSBK.release.xcconfig"; path = "Pods/Target Support Files/Pods-QSBK/Pods-QSBK.release.xcconfig"; sourceTree = "<group>"; };
+		76F1AAA792EBFCBCA9723752 /* Pods_QSBK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QSBK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04BA6DAD07D1CA00EAEEA29 /* Pods-QSBK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSBK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QSBK/Pods-QSBK.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95CF59E371C07DBFB4C34164 /* Pods_QSBK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +111,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D233BC51D050DC10009A0A5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				3D233BC61D050DD50009A0A5 /* Constant.h */,
+				3D233BC71D050DD50009A0A5 /* Constant.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
 		3D60A9B11D016C6A00A78A15 = {
 			isa = PBXGroup;
 			children = (
+				3D60A9F01D019F2400A78A15 /* Classes */,
+				3D60A9F11D019F2400A78A15 /* Resource */,
 				3D60A9BC1D016C6A00A78A15 /* QSBK */,
 				3D60A9D61D016C6B00A78A15 /* QSBKTests */,
 				3D60A9E11D016C6B00A78A15 /* QSBKUITests */,
 				3D60A9BB1D016C6A00A78A15 /* Products */,
+				C569BD8483A67D057E0178C1 /* Pods */,
+				7E0CEA02FBE934E13094E432 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +149,6 @@
 			children = (
 				3D60A9C01D016C6A00A78A15 /* AppDelegate.h */,
 				3D60A9C11D016C6A00A78A15 /* AppDelegate.m */,
-				3D60A9C31D016C6A00A78A15 /* ViewController.h */,
-				3D60A9C41D016C6A00A78A15 /* ViewController.m */,
-				3D60A9C61D016C6A00A78A15 /* Main.storyboard */,
 				3D60A9C91D016C6A00A78A15 /* Assets.xcassets */,
 				3D60A9CB1D016C6A00A78A15 /* LaunchScreen.storyboard */,
 				3D60A9CE1D016C6A00A78A15 /* Info.plist */,
@@ -140,6 +183,92 @@
 			path = QSBKUITests;
 			sourceTree = "<group>";
 		};
+		3D60A9F01D019F2400A78A15 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3D233BC51D050DC10009A0A5 /* Tools */,
+				3D60A9F21D019FF700A78A15 /* Home */,
+			);
+			name = Classes;
+			path = QSBK/Classes;
+			sourceTree = "<group>";
+		};
+		3D60A9F11D019F2400A78A15 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3D1688711D02998C00D6CD72 /* PingFang.ttf */,
+				3D60A9F91D01A96900A78A15 /* test_data.json */,
+			);
+			name = Resource;
+			path = QSBK/Resource;
+			sourceTree = "<group>";
+		};
+		3D60A9F21D019FF700A78A15 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3D60A9F31D019FF700A78A15 /* Controller */,
+				3D60A9F41D019FF700A78A15 /* Model */,
+				3D60A9F51D019FF700A78A15 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3D60A9F31D019FF700A78A15 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D60A9C31D016C6A00A78A15 /* HomeViewController.h */,
+				3D60A9C41D016C6A00A78A15 /* HomeViewController.m */,
+				3D16887E1D02F02B00D6CD72 /* ArticleDetailController.h */,
+				3D16887F1D02F02B00D6CD72 /* ArticleDetailController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3D60A9F41D019FF700A78A15 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D60A9F61D01A0D600A78A15 /* HomeJokeData.h */,
+				3D60A9F71D01A0D600A78A15 /* HomeJokeData.m */,
+				3D1688841D02F26800D6CD72 /* CommentsData.h */,
+				3D1688851D02F26800D6CD72 /* CommentsData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3D60A9F51D019FF700A78A15 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D233BC21D050D440009A0A5 /* TitleScrollView.h */,
+				3D233BC31D050D440009A0A5 /* TitleScrollView.m */,
+				3D16887B1D02CDB300D6CD72 /* HomePlayerView.h */,
+				3D16887C1D02CDB300D6CD72 /* HomePlayerView.m */,
+				3D60A9FB1D01B76C00A78A15 /* HomeJokeCell.h */,
+				3D60A9FC1D01B76C00A78A15 /* HomeJokeCell.m */,
+				3D1688721D02A88600D6CD72 /* HomeVideoImage.h */,
+				3D1688731D02A88600D6CD72 /* HomeVideoImage.m */,
+				3D1688811D02F24D00D6CD72 /* CommentsCell.h */,
+				3D1688821D02F24D00D6CD72 /* CommentsCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E0CEA02FBE934E13094E432 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76F1AAA792EBFCBCA9723752 /* Pods_QSBK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C569BD8483A67D057E0178C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C04BA6DAD07D1CA00EAEEA29 /* Pods-QSBK.debug.xcconfig */,
+				48CBF5B9AA0FDDE07CD3B800 /* Pods-QSBK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +276,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D60A9E71D016C6B00A78A15 /* Build configuration list for PBXNativeTarget "QSBK" */;
 			buildPhases = (
+				3103B1312A6A4DE75ED81F28 /* 📦 Check Pods Manifest.lock */,
 				3D60A9B61D016C6A00A78A15 /* Sources */,
 				3D60A9B71D016C6A00A78A15 /* Frameworks */,
 				3D60A9B81D016C6A00A78A15 /* Resources */,
+				A3F24359F356EB85D164213D /* 📦 Embed Pods Frameworks */,
+				5F28440B0F680D1157BB8F47 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +339,7 @@
 				TargetAttributes = {
 					3D60A9B91D016C6A00A78A15 = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = A68MT549DE;
 					};
 					3D60A9D21D016C6B00A78A15 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -243,9 +376,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D60A9FA1D01A96900A78A15 /* test_data.json in Resources */,
 				3D60A9CD1D016C6A00A78A15 /* LaunchScreen.storyboard in Resources */,
 				3D60A9CA1D016C6A00A78A15 /* Assets.xcassets in Resources */,
-				3D60A9C81D016C6A00A78A15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +398,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3103B1312A6A4DE75ED81F28 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F28440B0F680D1157BB8F47 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QSBK/Pods-QSBK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F24359F356EB85D164213D /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QSBK/Pods-QSBK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D60A9B61D016C6A00A78A15 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D60A9C51D016C6A00A78A15 /* ViewController.m in Sources */,
+				3D60A9FD1D01B76C00A78A15 /* HomeJokeCell.m in Sources */,
+				3D1688861D02F26800D6CD72 /* CommentsData.m in Sources */,
+				3D60A9C51D016C6A00A78A15 /* HomeViewController.m in Sources */,
+				3D60A9F81D01A0D600A78A15 /* HomeJokeData.m in Sources */,
 				3D60A9C21D016C6A00A78A15 /* AppDelegate.m in Sources */,
 				3D60A9BF1D016C6A00A78A15 /* main.m in Sources */,
+				3D16887D1D02CDB300D6CD72 /* HomePlayerView.m in Sources */,
+				3D233BC81D050DD50009A0A5 /* Constant.m in Sources */,
+				3D1688741D02A88600D6CD72 /* HomeVideoImage.m in Sources */,
+				3D1688831D02F24D00D6CD72 /* CommentsCell.m in Sources */,
+				3D1688801D02F02B00D6CD72 /* ArticleDetailController.m in Sources */,
+				3D233BC41D050D440009A0A5 /* TitleScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +498,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3D60A9C61D016C6A00A78A15 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3D60A9C71D016C6A00A78A15 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3D60A9CB1D016C6A00A78A15 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -409,22 +591,28 @@
 		};
 		3D60A9E81D016C6B00A78A15 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C04BA6DAD07D1CA00EAEEA29 /* Pods-QSBK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = QSBK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TianYu.QSBK;
+				PRODUCT_BUNDLE_IDENTIFIER = TianYu.QSBK.jk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		3D60A9E91D016C6B00A78A15 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48CBF5B9AA0FDDE07CD3B800 /* Pods-QSBK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = QSBK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = TianYu.QSBK;
+				PRODUCT_BUNDLE_IDENTIFIER = TianYu.QSBK.jk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -496,6 +684,7 @@
 				3D60A9E91D016C6B00A78A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D60A9EA1D016C6B00A78A15 /* Build configuration list for PBXNativeTarget "QSBKTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +693,7 @@
 				3D60A9EC1D016C6B00A78A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3D60A9ED1D016C6B00A78A15 /* Build configuration list for PBXNativeTarget "QSBKUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +702,7 @@
 				3D60A9EF1D016C6B00A78A15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

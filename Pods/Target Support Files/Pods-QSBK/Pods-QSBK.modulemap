@@ -1,0 +1,6 @@
+framework module Pods_QSBK {
+  umbrella header "Pods-QSBK-umbrella.h"
+
+  export *
+  module * { export * }
+}
